@@ -1,4 +1,8 @@
-[![Build Status](https://travis-ci.org/faheem00/laravel-google-authenticator.svg?branch=master)](https://travis-ci.org/faheem00/laravel-google-authenticator)
+[![Build Status](https://travis-ci.org/faheem00/laravel-google-authenticator.svg?branch=master)](https://travis-ci.org/faheem00/laravel-google-authenticator) [![Coverage Status](https://coveralls.io/repos/faheem00/laravel-google-authenticator/badge.svg?branch=master&service=github)](https://coveralls.io/github/faheem00/laravel-google-authenticator?branch=master)
+
+[![Latest Stable Version](https://poser.pugx.org/faheem00/laravel-google-authenticator/v/stable)](https://packagist.org/packages/faheem00/laravel-google-authenticator) [![Total Downloads](https://poser.pugx.org/faheem00/laravel-google-authenticator/downloads)](https://packagist.org/packages/faheem00/laravel-google-authenticator) [![Latest Unstable Version](https://poser.pugx.org/faheem00/laravel-google-authenticator/v/unstable)](https://packagist.org/packages/faheem00/laravel-google-authenticator) [![License](https://poser.pugx.org/faheem00/laravel-google-authenticator/license)](https://packagist.org/packages/faheem00/laravel-google-authenticator)
+
+[![PHP 7 ready](http://php7ready.timesplinter.ch/faheem00/laravel-google-authenticator/master/badge.svg)](https://travis-ci.org/faheem00/laravel-google-authenticator) [![HHVM Status](http://hhvm.h4cc.de/badge/faheem00/laravel-google-authenticator.svg)](http://hhvm.h4cc.de/package/faheem00/laravel-google-authenticator)
 
 Laravel Google Authenticator
 ===========
