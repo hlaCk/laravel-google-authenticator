@@ -78,7 +78,7 @@ Faheem00\LaravelGoogleAuthenticator\Providers\GoogleAuthenticatorServiceProvider
 If you want to use Facade, you can add the following line to `aliases` array on ``config/app.php``
 
 ```php
-'Googleauthenticator' => Faheem00\LaravelGoogleAuthenticator\Facades\GoogleAuthenticator::class
+'Googleauthenticator' => Faheem00\LaravelGoogleAuthenticator\Facades\GoogleAuthenticatorFacade::class
 ```
 
 Using the class

@@ -26,14 +26,13 @@ class ServiceProviderTest extends \Orchestra\Testbench\TestCase
   protected function getPackageAliases($app)
   {
     return [
-      'Googleauth' => 'Faheem00\LaravelGoogleAuthenticator\Facades\GoogleAuthenticator'
+      'Googleauth' => 'Faheem00\LaravelGoogleAuthenticator\Facades\GoogleAuthenticatorFacade'
     ];
   }
 
   public function testFacade()
   {
-    $facade_instance = $this->app->make('Faheem00\LaravelGoogleAuthenticator\GoogleAuthenticator')->getInstance();
+    $facade_instance = Googleauth::getInstance();
     $this->assertInstanceOf(OTPHP\TOTP::class,$facade_instance);
-    Googleauth::getInstance();
   }
 }
