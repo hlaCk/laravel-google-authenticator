@@ -2,8 +2,8 @@
 
 namespace Faheem00\LaravelGoogleAuthenticator\Providers;
 
-use PHPGangsta_GoogleAuthenticator;
 use Illuminate\Support\ServiceProvider;
+use Faheem00\LaravelGoogleAuthenticator\GoogleAuthenticator;
 
 class GoogleAuthenticatorServiceProvider extends ServiceProvider
 {
@@ -21,8 +21,8 @@ class GoogleAuthenticatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(PHPGangsta_GoogleAuthenticator::class, function ($app) {
-            return new PHPGangsta_GoogleAuthenticator();
+        $this->app->singleton(GoogleAuthenticator::class, function ($app) {
+            return new GoogleAuthenticator();
         });
     }
 
@@ -33,6 +33,6 @@ class GoogleAuthenticatorServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [PHPGangsta_GoogleAuthenticator::class];
+        return [GoogleAuthenticator::class];
     }
 }

@@ -1,13 +1,14 @@
 {
   "name": "faheem00/laravel-google-authenticator",
   "type": "package",
-  "description": "Laravel service provider for PHPGangsta's Google Authenticator, which generates and verifies Google Authenticator two-factor authentication, for ease of use with Laravel 5 applications",
+  "description": "This is a framework agnostic PHP library for using Google Authenticator service for one time password generation. This library can also be used as a service provider for Laravel 5 applications.",
   "keywords": ["google","authenticator","laravel"],
   "require": {
     "illuminate/support": "^5.2",
     "php": ">=5.4.0",
-    "phpgangsta/googleauthenticator": "dev-master",
-    "faheem00/laravel-google-authenticator": "^1.0"
+    "spomky-labs/otphp": "^7.0",
+    "symfony/polyfill-php70": "^1.2",
+    "phpunit/phpunit": "^5.3"
   },
   "autoload": {
     "psr-4": {
@@ -20,5 +21,5 @@
     "email": "faheemabrar2003@gmail.com",
     "homepage": "http://faheemabrar.tk"
   }],
-  "minimum-stability": "dev"
+  "minimum-stability": "stable"
 }

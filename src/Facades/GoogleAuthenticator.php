@@ -2,6 +2,7 @@
 
 namespace Faheem00\LaravelGoogleAuthenticator\Facades;
 
+use Faheem00\LaravelGoogleAuthenticator\GoogleAuthenticator;
 use Illuminate\Support\Facades\Facade;
 
 class GoogleAuthenticator extends Facade
@@ -13,6 +14,6 @@ class GoogleAuthenticator extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \PHPGangsta_GoogleAuthenticator::class;
+        return GoogleAuthenticator::class;
     }
 }
