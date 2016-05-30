@@ -21,10 +21,9 @@ class GoogleAuthenticatorServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $app['googleauthenticator'] = $this->app->singleton(PHPGangsta_GoogleAuthenticator::class, function ($app) {
+        $this->app->singleton(PHPGangsta_GoogleAuthenticator::class, function ($app) {
             return new PHPGangsta_GoogleAuthenticator();
         });
-        $app->alias('googleauthenticator',PHPGangsta_GoogleAuthenticator::class);
     }
 
     /**

@@ -13,6 +13,6 @@ class GoogleAuthenticator extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'googleauthenticator';
+        return \PHPGangsta_GoogleAuthenticator::class;
     }
 }
