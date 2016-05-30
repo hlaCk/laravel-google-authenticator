@@ -5,10 +5,10 @@
   "keywords": ["google","authenticator","laravel"],
   "require": {
     "illuminate/support": "5.0.*",
-    "php": ">=5.4.0",
+    "php": ">=5.5.0",
     "spomky-labs/otphp": "^7.0",
     "symfony/polyfill-php70": "^1.2",
-    "phpunit/phpunit": "^4.8"
+    "phpunit/phpunit": "4.7.*"
   },
   "autoload": {
     "psr-4": {
