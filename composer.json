@@ -1,0 +1,23 @@
+{
+  "name": "faheem00/laravel-google-authenticator",
+  "type": "package",
+  "description": "A Fork of PHPGangsta's Google Authenticator, which generates and verifies Google Authenticator two-factor authentication. This fork is a laravel service provider, for ease of use with Laravel 5 applications",
+  "keywords": ["google","authenticator","laravel"],
+  "require": {
+    "illuminate/support": "^5.2",
+    "php": ">=5.4.0",
+    "phpgangsta/googleauthenticator": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Faheem00\\LaravelGoogleAuthenticator\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Faheem Abrar",
+    "email": "faheemabrar2003@gmail.com",
+    "homepage": "http://faheemabrar.tk"
+  }],
+  "minimum-stability": "dev"
+}
