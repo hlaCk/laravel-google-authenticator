@@ -2,8 +2,8 @@
 
 namespace Faheem00\LaravelGoogleAuthenticator\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Faheem00\LaravelGoogleAuthenticator\GoogleAuthenticator;
+use Illuminate\Support\ServiceProvider;
 
 class GoogleAuthenticatorServiceProvider extends ServiceProvider
 {

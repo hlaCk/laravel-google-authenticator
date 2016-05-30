@@ -2,7 +2,11 @@
   "name": "faheem00/laravel-google-authenticator",
   "type": "package",
   "description": "This is a framework agnostic PHP library for using Google Authenticator service for one time password generation. This library can also be used as a service provider for Laravel 5 applications.",
-  "keywords": ["google", "authenticator", "laravel"],
+  "keywords": [
+    "google",
+    "authenticator",
+    "laravel"
+  ],
   "require": {
     "illuminate/support": "5.0.*",
     "php": ">=5.5.0",
@@ -20,10 +24,12 @@
     }
   },
   "license": "MIT",
-  "authors": [{
-    "name": "Faheem Abrar",
-    "email": "faheemabrar2003@gmail.com",
-    "homepage": "http://faheemabrar.tk"
-  }],
+  "authors": [
+    {
+      "name": "Faheem Abrar",
+      "email": "faheemabrar2003@gmail.com",
+      "homepage": "http://faheemabrar.tk"
+    }
+  ],
   "minimum-stability": "stable"
 }
