@@ -1,6 +1,6 @@
 <?php
 
-class ServiceProviderTest extends Orchestra\Testbench\TestCase
+class ServiceProviderTest extends \Orchestra\Testbench\TestCase
 {
   /**
     * Setup the test environment.
@@ -16,7 +16,7 @@ class ServiceProviderTest extends Orchestra\Testbench\TestCase
   protected function getPackageProviders($app)
   {
     return [
-      Faheem00\LaravelGoogleAuthenticator\Providers\GoogleAuthenticatorServiceProvider::class
+      'Faheem00\LaravelGoogleAuthenticator\Providers\GoogleAuthenticatorServiceProvider'
     ];
   }
 
@@ -26,13 +26,13 @@ class ServiceProviderTest extends Orchestra\Testbench\TestCase
   protected function getPackageAliases($app)
   {
     return [
-      'Googleauthenticator' => Faheem00\LaravelGoogleAuthenticator\Facades\GoogleAuthenticator::class
+      'Googleauthenticator' => 'Faheem00\LaravelGoogleAuthenticator\Facades\GoogleAuthenticator'
     ];
   }
 
   public function testFacade()
   {
-    $facade_instance = Googleauthenticator::getInstance();
+    $facade_instance = \Googleauthenticator::getInstance();
     $this->assertInstanceOf(OTPHP\TOTP::class,$facade_instance);
   }
 }
