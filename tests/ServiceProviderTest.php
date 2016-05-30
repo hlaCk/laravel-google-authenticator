@@ -32,7 +32,7 @@ class ServiceProviderTest extends \Orchestra\Testbench\TestCase
 
   public function testFacade()
   {
-    $facade_instance = \Googleauthenticator::getInstance();
+    $facade_instance = $this->app->make('Faheem00\LaravelGoogleAuthenticator\GoogleAuthenticator')->getInstance();    
     $this->assertInstanceOf(OTPHP\TOTP::class,$facade_instance);
   }
 }
