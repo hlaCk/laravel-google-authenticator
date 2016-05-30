@@ -8,7 +8,7 @@
     "php": ">=5.4.0",
     "spomky-labs/otphp": "^7.0",
     "symfony/polyfill-php70": "^1.2",
-    "phpunit/phpunit": "^5.3"
+    "phpunit/phpunit": "^4.8"
   },
   "autoload": {
     "psr-4": {
