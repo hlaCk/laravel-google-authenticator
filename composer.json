@@ -6,7 +6,8 @@
   "require": {
     "illuminate/support": "^5.2",
     "php": ">=5.4.0",
-    "phpgangsta/googleauthenticator": "dev-master"
+    "phpgangsta/googleauthenticator": "dev-master",
+    "faheem00/laravel-google-authenticator": "^1.0"
   },
   "autoload": {
     "psr-4": {
