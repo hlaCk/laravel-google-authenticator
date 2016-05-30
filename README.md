@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/faheem00/laravel-google-authenticator.svg?branch=master)](https://travis-ci.org/faheem00/laravel-google-authenticator)
+
 Laravel Google Authenticator
 ===========
 This is a framework agnostic PHP library for using Google Authenticator service for one time password generation. This library can also be used as a service provider for Laravel 5 applications.
